@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-main: #242425;
+  --color-main_2: #2c2c2c;
+  --color-badge: #414148;
+  --navbar-size: 48px;
+}
+
+:root {
+  scroll-behavior: smooth;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: var(--color-main);
+}
+
+.space-grotesk {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00bd06;
+  border-radius: 2px;
+}
+.project ::-webkit-scrollbar-thumb {
+  background-color: #656565;
+}
+
+::-webkit-scrollbar {
+  border-radius: 2px;
+  height: 3px;
+  width: 3px;
+}

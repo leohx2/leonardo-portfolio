@@ -1,0 +1,37 @@
+a * {
+  transition: all 0.3s ease-in-out;
+}
+
+.github:hover .githubBg {
+  fill: rgb(0, 0, 0);
+}
+
+.linkedin:hover .linkedinBg {
+  fill: #0077b5;
+}
+
+.youtube:hover:hover .youtubeBg {
+  fill: #ff0000;
+}
+
+.linkedin:hover .linkedinBgInside,
+.youtube:hover .youtubeBgInside {
+  fill: white;
+}
+
+.gmail:hover .gmailColor1 {
+  fill: #4285f4;
+}
+.gmail:hover .gmailColor2 {
+  fill: #ea4335;
+}
+.gmail:hover .gmailColor3 {
+  fill: #c5221f;
+}
+.gmail:hover .gmailColor4 {
+  fill: #fbbc04;
+}
+
+.gmail:hover .gmailColor5 {
+  fill: #34a853;
+}
