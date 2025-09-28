@@ -44,27 +44,27 @@ const Project_individual = ({ title, id, stack, link }: ProjectProps) => {
             images_info={[
               {
                 address:
-                  "./leonardo-portfolio/src/assets/projects/atelier_services.png",
+                  "/leonardo-portfolio/public/assets/projects/atelier_services.png",
                 alt: "Part of the available services",
               },
               {
                 address:
-                  "./leonardo-portfolio/src/assets/projects/Atelier da Essência.png",
+                  "/leonardo-portfolio/public/assets/projects/Atelier da Essência.png",
                 alt: "Site inicial page",
               },
               {
                 address:
-                  "./leonardo-portfolio/src/assets/projects/atelier_eventos.png",
+                  "/leonardo-portfolio/public/assets/projects/atelier_eventos.png",
                 alt: "events page",
               },
               {
                 address:
-                  "./leonardo-portfolio/src/assets/projects/atelier_all_services.png",
+                  "/leonardo-portfolio/public/assets/projects/atelier_all_services.png",
                 alt: "all services page",
               },
               {
                 address:
-                  "./leonardo-portfolio/src/assets/projects/atelier_about_me_footer.png",
+                  "/leonardo-portfolio/public/assets/projects/atelier_about_me_footer.png",
                 alt: "a piece of about me and the footer",
               },
             ]}
@@ -86,22 +86,22 @@ const Project_individual = ({ title, id, stack, link }: ProjectProps) => {
             images_info={[
               {
                 address:
-                  "./leonardo-portfolio/src/assets/projects/aviator_fastbuy_smartphone.gif",
+                  "/leonardo-portfolio/public/assets/projects/aviator_fastbuy_smartphone.gif",
                 alt: "Fast buy smartphone GIF",
               },
               {
                 address:
-                  "./leonardo-portfolio/src/assets/projects/aviator_fastbuy.gif",
+                  "/leonardo-portfolio/public/assets/projects/aviator_fastbuy.gif",
                 alt: "Fast buy animation GIF",
               },
               {
                 address:
-                  "./leonardo-portfolio/src/assets/projects/aviator_applying_filter.gif",
+                  "/leonardo-portfolio/public/assets/projects/aviator_applying_filter.gif",
                 alt: "Applying filter GIF",
               },
               {
                 address:
-                  "./leonardo-portfolio/src/assets/projects/aviator_filter.png",
+                  "/leonardo-portfolio/public/assets/projects/aviator_filter.png",
                 alt: "Sort feature",
               },
             ]}

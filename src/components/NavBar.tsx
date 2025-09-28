@@ -89,7 +89,7 @@ const NavBar = ({ children }: NavProps) => {
           )}
         </a>
         <a
-          href="/leonardo-portfolio/src/assets/LeonardoSilvaCv.pdf"
+          href="/leonardo-portfolio/public/assets/LeonardoSilvaCv.pdf"
           download
           className={`${screenSize == "large" ? "ml-auto" : ""}`}
         >
