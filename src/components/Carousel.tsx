@@ -108,6 +108,7 @@ const Carousel = ({ images_info, cssClass, unique_ID }: CarouselProps) => {
           changeImage({ side: "left" });
         }}
         disabled={size < 3 && currentImage === 1}
+        aria-label="Left button from carousel, change image to the left"
       >
         <div className="w-[35px] h-[35px] bg-main_2 rounded-full flex items-center">
           <SvgSelector
@@ -138,6 +139,7 @@ const Carousel = ({ images_info, cssClass, unique_ID }: CarouselProps) => {
           changeImage({ side: "right" });
         }}
         disabled={size < 3 && currentImage === size}
+        aria-label="Left button from carousel, change image to the left"
       >
         <div className="w-[35px] h-[35px] bg-main_2 rounded-full flex items-center">
           <SvgSelector

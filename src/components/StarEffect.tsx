@@ -12,7 +12,6 @@ interface RandomDivProps {
 }
 
 const getRandomArbitrary = (min: number, max: number) => {
-  console.log(min, max, window.screen.width / 3);
   return Math.random() * (max - min) + min;
 };
 

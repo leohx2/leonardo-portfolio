@@ -30,6 +30,7 @@ const SocialMedias = ({ cssClass, hasLine }: SocialMediasProps) => {
         href="https://github.com/leohx2"
         target="_blank"
         className=" grayscale-75 github"
+        aria-label="Open Github"
       >
         <SvgSelector
           svgName="github"
@@ -41,6 +42,7 @@ const SocialMedias = ({ cssClass, hasLine }: SocialMediasProps) => {
         href="https://www.linkedin.com/in/leonardorosendosilva/"
         target="_blank"
         className="linkedin"
+        aria-label="Open LinkedIn"
       >
         <SvgSelector
           svgName="linkedin"
@@ -53,6 +55,7 @@ const SocialMedias = ({ cssClass, hasLine }: SocialMediasProps) => {
         href="https://www.youtube.com/@leohx2"
         target="_blank"
         className="youtube"
+        aria-label="Open youtube channel"
       >
         <SvgSelector
           svgName="youtube"
@@ -61,7 +64,7 @@ const SocialMedias = ({ cssClass, hasLine }: SocialMediasProps) => {
           colorInside="fill-zinc-800 youtubeBgInside"
         />
       </a>
-      <a href="mailto:leobgse@gmail.com" target="_blank">
+      <a href="mailto:leobgse@gmail.com" target="_blank" aria-label="E-mail me">
         <SvgSelector
           svgName="gmail"
           cssClass={`w-[28px] h-[28px] rounded-full`}

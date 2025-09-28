@@ -57,6 +57,7 @@ const NavBar = ({ children }: NavProps) => {
           id="apresentationLink"
           href="#apresentation"
           onClick={(e) => handleClick(e)}
+          aria-label="Go to apresentation section"
         >
           {screenSize === "small" ? (
             <SvgSelector
@@ -67,7 +68,12 @@ const NavBar = ({ children }: NavProps) => {
             "About me"
           )}
         </a>
-        <a id="skillsLink" href="#skills" onClick={(e) => handleClick(e)}>
+        <a
+          id="skillsLink"
+          href="#skills"
+          onClick={(e) => handleClick(e)}
+          aria-label="Go to skills section"
+        >
           {screenSize === "small" ? (
             <SvgSelector
               svgName="skills"
@@ -78,7 +84,12 @@ const NavBar = ({ children }: NavProps) => {
           )}
         </a>
 
-        <a id="projectsLink" href="#projects" onClick={(e) => handleClick(e)}>
+        <a
+          id="projectsLink"
+          href="#projects"
+          onClick={(e) => handleClick(e)}
+          aria-label="Go to projects section"
+        >
           {screenSize === "small" ? (
             <SvgSelector
               svgName="projects"
@@ -92,6 +103,7 @@ const NavBar = ({ children }: NavProps) => {
           href="/leonardo-portfolio/assets/LeonardoSilvaCv.pdf"
           download
           className={`${screenSize == "large" ? "ml-auto" : ""}`}
+          aria-label="Download curriculum vitae"
         >
           {screenSize === "small" ? (
             <SvgSelector

@@ -169,6 +169,7 @@ const Project_individual = ({ title, id, stack, link }: ProjectProps) => {
       <button
         className="flex gap-x-2 items-center cursor-pointer"
         onClick={handleClickProject}
+        aria-label="Open project details"
       >
         <h3 className="text-2xl text-amber-50 font-bold flex">{title}</h3>
         <div ref={svgDiv} className="translate-y-1">
