@@ -38,7 +38,7 @@ const Footer = () => {
             <SvgSelector svgName="link" cssClass="w-6 h-6" />
           </motion.a>
           <motion.a
-            href="/leonardo-portfolio/public/assets/LeonardoSilvaCv.pdf"
+            href="assets/LeonardoSilvaCv.pdf"
             download
             className="flex gap-x-2 p-[0.7rem_2rem] border-badge border-1 rounded-md sm:opacity-85 w-fit"
             whileHover={{ opacity: 1, background: "#414148" }}

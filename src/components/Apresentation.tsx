@@ -2,6 +2,7 @@ import SvgSelector from "../assets/SvgSelector";
 import "../App.css";
 import { motion } from "motion/react";
 import { useRef } from "react";
+import profileImage from "/assets/myPhoto.png";
 
 const Apresentation = () => {
   const spanEl = useRef<HTMLSpanElement | null>(null);
@@ -69,7 +70,7 @@ const Apresentation = () => {
           />
         </div>
         <img
-          src="/leonardo-portfolio/public/assets/myPhoto.png"
+          src={profileImage}
           alt="Leonardo Silva picture"
           className=" grayscale-60 lg:h-[400px] h-[300px]"
         />
