@@ -100,7 +100,7 @@ const NavBar = ({ children }: NavProps) => {
           )}
         </a>
         <a
-          href="/leonardo-portfolio/assets/LeonardoSilvaCv.pdf"
+          href="/assets/LeonardoSilvaCv.pdf"
           download
           className={`${screenSize == "large" ? "ml-auto" : ""}`}
           aria-label="Download curriculum vitae"
