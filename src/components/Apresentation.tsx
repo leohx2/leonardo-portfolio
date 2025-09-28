@@ -69,7 +69,7 @@ const Apresentation = () => {
           />
         </div>
         <img
-          src="/src/assets/myPhoto.png"
+          src="/leonardo-portfolio/src/assets/myPhoto.png"
           alt="Leonardo Silva picture"
           className=" grayscale-60 lg:h-[400px] h-[300px]"
         />
