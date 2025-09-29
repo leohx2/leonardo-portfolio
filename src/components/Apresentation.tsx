@@ -52,7 +52,7 @@ const Apresentation = () => {
           <p className="tracking-wider lg:text-lg">
             I'm a 25 years old developer based in Portugal, focused on creating
             modern, user-friendly, practical and beautiful web apps. Feel free
-            to check out my projects below.
+            to check out my skills and projects below.
           </p>
         </div>
       </motion.div>
